@@ -1,0 +1,27 @@
+group 'com.github.diplombmstu.javaflavors'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+sourceSets {
+    main {
+        groovy {
+            srcDirs = ['src/main/groovy']
+        }
+    }
+}
+
+group='com.github.diplombmstu.javaflavors'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile gradleApi()
+//    groovy localGroovy()
+
+//    compile 'org.codehaus.groovy:groovy-all:2.4.7'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
