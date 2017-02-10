@@ -1,7 +1,7 @@
 package com.github.diplombmstu.javaflavors
 
 /**
- * TODO add comment
+ * Theme bean
  */
 class Theme {
     String name

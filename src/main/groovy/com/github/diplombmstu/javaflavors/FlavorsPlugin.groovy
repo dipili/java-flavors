@@ -5,7 +5,7 @@ import org.gradle.api.Plugin
 import org.gradle.api.Project
 
 /**
- * TODO add comment
+ * Plugin class. Parses gradle file and passes arguments to the generated PrepareTask
  */
 class FlavorsPlugin implements Plugin<Project> {
     public static final String EXTENSION_NAME = 'flavors'

@@ -3,7 +3,7 @@ package com.github.diplombmstu.javaflavors
 import org.gradle.api.NamedDomainObjectContainer
 
 /**
- * TODO add comment
+ * The plugin root configuration
  */
 class Configuration {
     NamedDomainObjectContainer<Theme> themes

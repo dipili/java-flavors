@@ -5,7 +5,7 @@ import org.gradle.api.tasks.TaskAction
 import org.gradle.util.GFileUtils
 
 /**
- * TODO add comment
+ * The gradle task that copies different resource folders.
  */
 class PrepareTask extends DefaultTask {
     Theme theme
